@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Hypotenuse {
+	public static void main(String[] args){
+		// Объявляем переменые
+	int a, b;
+		// Сканируем данны, метод Scanner
+	
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Введите первый катет");
+		a = scn.nextInt();
+		System.out.println("Введите второй катет");
+		b = scn.nextInt();
+		scn.close();
+		// Расчет гипотенузы
+		// 1-й вариант hypot 
+		System.out.println("Гипотенуза = " + Math.hypot(a, b));
+		// 2-й вариант sqrt
+		System.out.println("Гипотенуза = " + Math.sqrt(a*a+b*b));  
+  }
+}
