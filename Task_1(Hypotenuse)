@@ -19,4 +19,4 @@ public class Hypotenuse {
 		System.out.println("Гипотенуза = " + Math.sqrt(a*a+b*b));  
   }
 }
-//ntcnadacsda 
+
